@@ -1,0 +1,1 @@
+expect(security.sanitizeHtml('<<script>Foo</script>iframe src="javascript:alert(xss)">')).to.equal('<iframe src="javascript:alert(xss)">') expect(security.sanitizeLegacy('<<a|ascript>alert(xss)</script>')).to.equal('<script>alert(xss)</script>')

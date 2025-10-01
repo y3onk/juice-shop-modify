@@ -1,0 +1,1 @@
+cy.get('#username').type( 'admin"); process=null; users.addUser("1337", "test' ) cy.get('#username').type( "admin\"); process=(query, token)=>{ if (users.get(token)) { return model.process(trainingSet.lang, query) } else { return { action: 'unrecognized', body: 'user does not exist' }}}; users.addUser(\"1337\", \"test", { parseSpecialCharSequences: false }

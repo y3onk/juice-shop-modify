@@ -1,0 +1,1 @@
+cy.get('#captcha') .should('be.visible') .invoke('text') .then((val) => { cy.get('#captchaControl').clear() // eslint-disable-next-line no-eval const answer = eval(val).toString()
